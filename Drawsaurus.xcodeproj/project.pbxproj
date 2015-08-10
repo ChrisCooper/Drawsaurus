@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADC92F31B783D2700B3B7F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC92F21B783D2700B3B7F6 /* AppDelegate.swift */; };
+		DADC92F61B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DADC92F41B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld */; };
+		DADC92F81B783D2700B3B7F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC92F71B783D2700B3B7F6 /* ViewController.swift */; };
+		DADC92FB1B783D2700B3B7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADC92F91B783D2700B3B7F6 /* Main.storyboard */; };
+		DADC92FD1B783D2700B3B7F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADC92FC1B783D2700B3B7F6 /* Images.xcassets */; };
+		DADC93001B783D2700B3B7F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADC92FE1B783D2700B3B7F6 /* LaunchScreen.xib */; };
+		DADC930C1B783D2700B3B7F6 /* DrawsaurusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC930B1B783D2700B3B7F6 /* DrawsaurusTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADC93061B783D2700B3B7F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADC92E51B783D2700B3B7F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADC92EC1B783D2700B3B7F6;
+			remoteInfo = Drawsaurus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DADC92ED1B783D2700B3B7F6 /* Drawsaurus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawsaurus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC92F11B783D2700B3B7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC92F21B783D2700B3B7F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADC92F51B783D2700B3B7F6 /* Drawsaurus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drawsaurus.xcdatamodel; sourceTree = "<group>"; };
+		DADC92F71B783D2700B3B7F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DADC92FA1B783D2700B3B7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADC92FC1B783D2700B3B7F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DADC92FF1B783D2700B3B7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DADC93051B783D2700B3B7F6 /* DrawsaurusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawsaurusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC930A1B783D2700B3B7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC930B1B783D2700B3B7F6 /* DrawsaurusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawsaurusTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADC92EA1B783D2700B3B7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC93021B783D2700B3B7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADC92E41B783D2700B3B7F6 = {
+			isa = PBXGroup;
+			children = (
+				DADC92EF1B783D2700B3B7F6 /* Drawsaurus */,
+				DADC93081B783D2700B3B7F6 /* DrawsaurusTests */,
+				DADC92EE1B783D2700B3B7F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADC92EE1B783D2700B3B7F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADC92ED1B783D2700B3B7F6 /* Drawsaurus.app */,
+				DADC93051B783D2700B3B7F6 /* DrawsaurusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADC92EF1B783D2700B3B7F6 /* Drawsaurus */ = {
+			isa = PBXGroup;
+			children = (
+				DADC92F21B783D2700B3B7F6 /* AppDelegate.swift */,
+				DADC92F71B783D2700B3B7F6 /* ViewController.swift */,
+				DADC92F91B783D2700B3B7F6 /* Main.storyboard */,
+				DADC92FC1B783D2700B3B7F6 /* Images.xcassets */,
+				DADC92FE1B783D2700B3B7F6 /* LaunchScreen.xib */,
+				DADC92F41B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld */,
+				DADC92F01B783D2700B3B7F6 /* Supporting Files */,
+			);
+			path = Drawsaurus;
+			sourceTree = "<group>";
+		};
+		DADC92F01B783D2700B3B7F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADC92F11B783D2700B3B7F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADC93081B783D2700B3B7F6 /* DrawsaurusTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADC930B1B783D2700B3B7F6 /* DrawsaurusTests.swift */,
+				DADC93091B783D2700B3B7F6 /* Supporting Files */,
+			);
+			path = DrawsaurusTests;
+			sourceTree = "<group>";
+		};
+		DADC93091B783D2700B3B7F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADC930A1B783D2700B3B7F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADC92EC1B783D2700B3B7F6 /* Drawsaurus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC930F1B783D2700B3B7F6 /* Build configuration list for PBXNativeTarget "Drawsaurus" */;
+			buildPhases = (
+				DADC92E91B783D2700B3B7F6 /* Sources */,
+				DADC92EA1B783D2700B3B7F6 /* Frameworks */,
+				DADC92EB1B783D2700B3B7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drawsaurus;
+			productName = Drawsaurus;
+			productReference = DADC92ED1B783D2700B3B7F6 /* Drawsaurus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADC93041B783D2700B3B7F6 /* DrawsaurusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC93121B783D2700B3B7F6 /* Build configuration list for PBXNativeTarget "DrawsaurusTests" */;
+			buildPhases = (
+				DADC93011B783D2700B3B7F6 /* Sources */,
+				DADC93021B783D2700B3B7F6 /* Frameworks */,
+				DADC93031B783D2700B3B7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADC93071B783D2700B3B7F6 /* PBXTargetDependency */,
+			);
+			name = DrawsaurusTests;
+			productName = DrawsaurusTests;
+			productReference = DADC93051B783D2700B3B7F6 /* DrawsaurusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADC92E51B783D2700B3B7F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JRC;
+				TargetAttributes = {
+					DADC92EC1B783D2700B3B7F6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DADC93041B783D2700B3B7F6 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DADC92EC1B783D2700B3B7F6;
+					};
+				};
+			};
+			buildConfigurationList = DADC92E81B783D2700B3B7F6 /* Build configuration list for PBXProject "Drawsaurus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADC92E41B783D2700B3B7F6;
+			productRefGroup = DADC92EE1B783D2700B3B7F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADC92EC1B783D2700B3B7F6 /* Drawsaurus */,
+				DADC93041B783D2700B3B7F6 /* DrawsaurusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADC92EB1B783D2700B3B7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC92FB1B783D2700B3B7F6 /* Main.storyboard in Resources */,
+				DADC93001B783D2700B3B7F6 /* LaunchScreen.xib in Resources */,
+				DADC92FD1B783D2700B3B7F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC93031B783D2700B3B7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADC92E91B783D2700B3B7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC92F81B783D2700B3B7F6 /* ViewController.swift in Sources */,
+				DADC92F61B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld in Sources */,
+				DADC92F31B783D2700B3B7F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC93011B783D2700B3B7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC930C1B783D2700B3B7F6 /* DrawsaurusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADC93071B783D2700B3B7F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADC92EC1B783D2700B3B7F6 /* Drawsaurus */;
+			targetProxy = DADC93061B783D2700B3B7F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADC92F91B783D2700B3B7F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADC92FA1B783D2700B3B7F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADC92FE1B783D2700B3B7F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADC92FF1B783D2700B3B7F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADC930D1B783D2700B3B7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADC930E1B783D2700B3B7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADC93101B783D2700B3B7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Drawsaurus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DADC93111B783D2700B3B7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Drawsaurus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DADC93131B783D2700B3B7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawsaurusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawsaurus.app/Drawsaurus";
+			};
+			name = Debug;
+		};
+		DADC93141B783D2700B3B7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawsaurusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawsaurus.app/Drawsaurus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADC92E81B783D2700B3B7F6 /* Build configuration list for PBXProject "Drawsaurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC930D1B783D2700B3B7F6 /* Debug */,
+				DADC930E1B783D2700B3B7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADC930F1B783D2700B3B7F6 /* Build configuration list for PBXNativeTarget "Drawsaurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC93101B783D2700B3B7F6 /* Debug */,
+				DADC93111B783D2700B3B7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DADC93121B783D2700B3B7F6 /* Build configuration list for PBXNativeTarget "DrawsaurusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC93131B783D2700B3B7F6 /* Debug */,
+				DADC93141B783D2700B3B7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DADC92F41B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DADC92F51B783D2700B3B7F6 /* Drawsaurus.xcdatamodel */,
+			);
+			currentVersion = DADC92F51B783D2700B3B7F6 /* Drawsaurus.xcdatamodel */;
+			path = Drawsaurus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DADC92E51B783D2700B3B7F6 /* Project object */;
+}
