@@ -33,20 +33,6 @@ class ViewController: UIViewController {
             println("User logs out")
         }
     }
-
-//    @IBAction func fbLoginClick(sender: AnyObject) {
-//        PFFacebookUtils.logInWithPermissions(self.permissions, block: {
-//            (user: PFUser?, error: NSError?) -> Void in
-//            if user == nil {
-//                println("Uh oh. The user cancelled the Facebook login.")
-//            } else if user!.isNew {
-//                println("User signed up and logged in through Facebook!")
-//            } else {
-//                println("User logged in through Facebook! \(user!.username)")
-//        
-//            }
-//        })
-//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
