@@ -33,6 +33,10 @@
 		DADC93381B784CBF00B3B7F6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93371B784CBF00B3B7F6 /* libz.dylib */; };
 		DADC933A1B784CCC00B3B7F6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93391B784CCC00B3B7F6 /* libsqlite3.dylib */; };
 		DADC93411B7856FC00B3B7F6 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93401B7856FC00B3B7F6 /* ParseFacebookUtilsV4.framework */; };
+		DADC93431B7FCAA300B3B7F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC93421B7FCAA300B3B7F6 /* MainViewController.swift */; };
+		DADC934F1B837D6C00B3B7F6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC934E1B837D6C00B3B7F6 /* Game.swift */; };
+		DADC93511B83876500B3B7F6 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC93501B83876500B3B7F6 /* NewGameViewController.swift */; };
+		DADC93531B8579B300B3B7F6 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC93521B8579B300B3B7F6 /* DrawViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,10 @@
 		DADC93391B784CCC00B3B7F6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DADC933C1B784D8E00B3B7F6 /* Drawsaurus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawsaurus-Bridging-Header.h"; sourceTree = "<group>"; };
 		DADC93401B7856FC00B3B7F6 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "../../../Downloads/parse-library-1.7.5/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		DADC93421B7FCAA300B3B7F6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DADC934E1B837D6C00B3B7F6 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DADC93501B83876500B3B7F6 /* NewGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
+		DADC93521B8579B300B3B7F6 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,13 +147,17 @@
 			isa = PBXGroup;
 			children = (
 				DADC92F21B783D2700B3B7F6 /* AppDelegate.swift */,
-				DADC92F71B783D2700B3B7F6 /* ViewController.swift */,
 				DADC92F91B783D2700B3B7F6 /* Main.storyboard */,
 				DADC92FC1B783D2700B3B7F6 /* Images.xcassets */,
 				DADC92FE1B783D2700B3B7F6 /* LaunchScreen.xib */,
 				DADC92F41B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld */,
 				DADC92F01B783D2700B3B7F6 /* Supporting Files */,
 				DADC933C1B784D8E00B3B7F6 /* Drawsaurus-Bridging-Header.h */,
+				DADC92F71B783D2700B3B7F6 /* ViewController.swift */,
+				DADC93421B7FCAA300B3B7F6 /* MainViewController.swift */,
+				DADC934E1B837D6C00B3B7F6 /* Game.swift */,
+				DADC93501B83876500B3B7F6 /* NewGameViewController.swift */,
+				DADC93521B8579B300B3B7F6 /* DrawViewController.swift */,
 			);
 			path = Drawsaurus;
 			sourceTree = "<group>";
@@ -302,8 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DADC92F81B783D2700B3B7F6 /* ViewController.swift in Sources */,
+				DADC934F1B837D6C00B3B7F6 /* Game.swift in Sources */,
+				DADC93511B83876500B3B7F6 /* NewGameViewController.swift in Sources */,
 				DADC92F61B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld in Sources */,
+				DADC93531B8579B300B3B7F6 /* DrawViewController.swift in Sources */,
 				DADC92F31B783D2700B3B7F6 /* AppDelegate.swift in Sources */,
+				DADC93431B7FCAA300B3B7F6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
